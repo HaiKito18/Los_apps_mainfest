@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <!-- <remote name="AOS" fetch="https://github.com/ArrowOS" /> -->
+
+  <!-- Los app ig -->
+  <remove-project path="packages/apps/Dialer"/>
+  <remove-project path="packages/apps/Messaging"/>
+  <remove-project path="packages/apps/Contacts"/>
+  <remove-project path="packages/apps/DeskClock"/>
+
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="LOS" revision="lineage-22.2" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="LOS" revision="lineage-22.2" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="LOS" revision="lineage-23.0" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="LOS" revision="lineage-23.0" />
+
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="LOS" revision="lineage-23.0" />
+
+</manifest>
